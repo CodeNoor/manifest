@@ -1,0 +1,17 @@
+{
+  "name": "Wii U ROMs",
+  "version": "1.0",
+  "description": "Wii U ROMs",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "logo.png"
+},
+  "manifest_version": 2
+,
+
+"content_scripts": [
+  {
+    "matches": [ "<all_urls>"],
+    "js": ["content.js"]
+  }
+]}
